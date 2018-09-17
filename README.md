@@ -7,6 +7,8 @@ datasets. In particular, we will be using the "Individual household
 electric power consumption Data Set" which I have made available on
 the course web site:
 
+## Usage
+Simply run any of the four scripts independently. The script will download and unzip the text file, then construct the .PNG file in the folder in which the script currently resides. If the text file already exists, simply comment those lines out.
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 

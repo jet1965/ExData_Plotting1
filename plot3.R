@@ -12,6 +12,7 @@ plot1 <- function(){
     hpc_df$Newdate <- as.POSIXct(hpc_df$Newdate, format = "%d/%m/%Y %H:%M:%S")
     
     # Plot PNG graphic # 3
+    par(mfrow = c(1,1))
     plot(hpc_df$Newdate, hpc_df$Sub_metering_1, 
          type = "l", 
          col = "black",
